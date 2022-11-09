@@ -17,10 +17,10 @@ public class Main {
         System.out.println("");
         for (int i = 0; i < apple.length; i++) {
             apple[0]++;
-        apple[2]=+4;
+            apple[2]=apple[2]+2;
             System.out.println(apple[i]);
 
-            
+
         }
     }
 }
