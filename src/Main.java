@@ -15,12 +15,16 @@ public class Main {
         System.out.println("");
         System.out.print(cirle[2]+","+cirle[1]+","+cirle[0]);
         System.out.println("");
+
         for (int i = 0; i < apple.length; i++) {
-            apple[0]++;
-        apple[2]=+4;
+            if(apple[i] % 2 ==0){
+                    System.out.println(apple[i]);
+                }else
+                    apple[i]++;
             System.out.println(apple[i]);
 
-            
+            }
+
+
         }
     }
-}
